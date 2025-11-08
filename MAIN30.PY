@@ -1,4 +1,4 @@
-# ultimate_lookup_map.py
+# domain-to-ip.py
 # Requirements:
 # pip install flask requests pythonping dnspython playwright
 # python -m playwright install chromium
@@ -327,3 +327,4 @@ exportBtn.addEventListener('click',()=>{
 
 if __name__=="__main__":
     app.run(host='0.0.0.0',port=5000,debug=True)
+
